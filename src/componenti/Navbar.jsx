@@ -1,9 +1,14 @@
 import './Navbar.css'
 import Link from './Link'
+const x = 300000;
+const img = "vite";
 
 function Navbar(){
     return(
-
+        <>
+        <nav>{x > 100000? "sono in alto!!!" : "sono in basso!!!"}</nav>
+        <img src={img} alt=""></img>
+        <img src={`/${img}.svg`}></img>
         <ul>
             <li><Link></Link></li>
             <li><Link></Link></li>
@@ -12,7 +17,7 @@ function Navbar(){
             <li><Link></Link></li>
             <li><Link></Link></li>
         </ul>
-
+        </>
     )
 }
 
