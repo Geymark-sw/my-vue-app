@@ -1,14 +1,19 @@
 import './Navbar.css'
 import Link from './Link'
-const x = 300000;
+const x = 1;
 const img = "vite";
+
+const imgStyle = {
+    height: "300px",
+    borderRadius: "500px"
+}
 
 function Navbar(){
     return(
         <>
+        <div className={`box rounded ${x < 10 ? "rotated" : ""}`}>AAAAAAAAAA</div>
         <nav>{x > 100000? "sono in alto!!!" : "sono in basso!!!"}</nav>
-        <img src={img} alt=""></img>
-        <img src={`/${img}.svg`}></img>
+       <img style={imgStyle}src={`/${img}.svg`}></img>
         <ul>
             <li><Link></Link></li>
             <li><Link></Link></li>

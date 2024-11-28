@@ -1,3 +1,23 @@
 ul li{
     color:darkblue
 }
+
+.bordoArrotondato {
+    height: 300px;
+    border-Radius: 100px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.rounded{
+    border-radius: 30px;
+}
+
+.rotated{
+    rotate: 30deg;
+    background-color: blue;
+}
